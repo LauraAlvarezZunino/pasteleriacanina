@@ -42,19 +42,17 @@ section {
 }
 
 .header div:first-child {
-    flex: 1;
+    flex: 1; /*altera dimensiones y ocupa el espacio disp*/
     color: #e0e0e0;
-    margin: 50px 0px;
     min-width: 300px;
-    padding: 0 50px;
+    padding: 50px 50px;
     box-sizing: border-box;/*padding y margin se incluyen en el calculo de la caja */
-    margin-left: 0;
 }
 
 .header div:last-child {
     display: flex;
     justify-content: center;
-    min-width: 350px;  
+    min-width: 300px;  
     max-width: 100%;  
     padding: 20px;
     box-sizing: border-box;
@@ -67,7 +65,7 @@ section {
     max-width: 350px; 
     height: auto;     
     padding: 10px;
-    object-fit: contain; 
+    object-fit: contain; /*mantiene la proporcion*/
     
 }
 
